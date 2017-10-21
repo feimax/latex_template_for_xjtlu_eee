@@ -1,0 +1,172 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 开始你的 LaTeX 之旅
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt,oneside,openright]{book}
+% 上面的设置中，11pt是字号，比较适合电子印刷品和纸质印刷品
+% 字体已经固定为 Times，即最适合纸质印刷和电子印刷的正式字体
+% oneside代表单面，一般单侧用于电子印刷品
+% 可以改成 twoside，一般用于双面纸质印刷，纸质印刷品要求新的一章从奇数页开始
+
+\usepackage{xjtlu} %不要改这个
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 修改下面各项，包括标题，你的名字，课程名字，老师名字
+% 以及截止日期
+% Change the following items, includeing name,
+% module name, teacher's name and deadline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\reporttitle{How To Rescue Your Report Using \LaTeX{}}
+\student{Your NAME}
+\module{EEE000 - Report Writing}
+\teacher{Dr. Firstname SURNAME}
+\ddl{$30^{th}$~/~Sept~/~2017}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\baselineskip = 17pt
+\input{xjtlu_cover}
+\baselineskip = 17pt
+
+\frontmatter
+
+\tableofcontents
+\addcontentsline{toc}{chapter}{Contents}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 摘要部分 Abstract
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Abstract}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue massa a ex luctus, in consectetur velit venenatis. Praesent porta dolor augue, at eleifend purus accumsan a. Vestibulum ullamcorper massa eget lobortis volutpat. Vestibulum at luctus lectus, vitae tristique ligula. Pellentesque ultrices viverra tellus, ut hendrerit urna varius ac. Sed nulla tortor, dignissim in justo nec, ullamcorper ultricies magna. In finibus, nisi eu lobortis ultricies, neque elit tempus purus, sit amet condimentum lorem ligula id magna. Integer a magna at augue euismod rhoncus mattis sit amet velit. Morbi eget leo a dolor porttitor commodo non non velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed quam feugiat, sollicitudin sapien id, semper est. In consectetur est eu sapien scelerisque, et sagittis sapien finibus. Nullam facilisis molestie ligula sed pharetra. Fusce nec sagittis arcu. Sed eu leo vel metus volutpat tincidunt. Suspendisse vehicula in elit eu pretium.
+
+Nulla sagittis urna venenatis ex lacinia molestie. Etiam tempus enim tortor, sed sollicitudin nisi tempus sit amet. Cras at metus massa. Sed consequat risus metus, ut placerat nisi gravida a. Donec quis justo eget risus maximus malesuada. Donec id urna sed eros porttitor ornare vitae non dolor. Donec mollis, leo sit amet aliquet posuere, velit lacus luctus ante, vel hendrerit eros mauris a ligula. Donec tincidunt dolor non enim malesuada, in molestie enim ornare. Aliquam gravida orci mauris, non scelerisque ante finibus in. Curabitur dictum dapibus mauris nec volutpat. Curabitur congue urna faucibus, feugiat lorem et, faucibus ante. Sed convallis erat ac nunc rhoncus, at fermentum velit efficitur. Nullam dolor metus, feugiat id consectetur vel, sagittis non nunc. Aliquam rutrum placerat ante eget blandit.
+
+\textbf{Key Words:} \LaTeX{}, consectetur, rutrum.
+
+\mainmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 正文部分 Main Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Introduction}\label{cpt:intro}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere, enim et blandit bibendum, ante nisl maximus nunc, sed ornare augue ante vel velit \cite{6362240}. Ut leo orci, volutpat eget ligula non, placerat elementum velit. Etiam euismod erat vel nunc blandit tincidunt. Aliquam in odio in turpis bibendum sollicitudin. Sed varius porta tempor. Proin dapibus velit vitae metus tincidunt as shown in Fig.\ref{fig:fig_example1}, sed congue magna maximus. Mauris massa risus, sodales at ligula at, suscipit vehicula odio \cite{cheng2017texture}.
+
+\figpdf{Proin dapibus velit vitae metus tincidunt sed congue magna maximus}{fig_example1}{12cm}
+
+Donec sapien mauris, bibendum id magna tristique, hendrerit facilisis magna. Proin ac posuere tellus, id laoreet augue. Suspendisse consequat sit amet dui in convallis \cite{jain1995machine}. Fusce tempor eros orci, eu aliquet purus placerat ut. Fusce dapibus placerat lacus ac venenatis. Etiam efficitur semper nisi lobortis vulputate. Maecenas tempor vulputate gravida. Fusce lobortis lobortis justo quis gravida. Proin tincidunt rhoncus nunc nec sodales. Phasellus ac eleifend ligula. Aliquam viverra dolor velit, quis tempor mi varius in. Aenean semper auctor nibh at consequat. Suspendisse quis fermentum enim. Cras venenatis, ligula sed convallis facilisis, augue metus vestibulum massa, nec finibus purus libero eu lacus. Aliquam finibus interdum metus, id dictum turpis. Donec erat ipsum, interdum et consequat et, vulputate convallis ante.
+
+Integer tincidunt imperdiet iaculis. Donec pharetra neque velit, nec accumsan lorem euismod a. Etiam eget semper urna, eget porta ante. Curabitur auctor, felis id hendrerit congue, nulla sapien egestas arcu, non aliquam ante metus a elit. Nam volutpat, eros posuere facilisis malesuada, nunc tortor varius risus, sed finibus lorem lorem in ligula. Vivamus non ultrices ipsum, nec bibendum arcu. Duis ut erat lectus. Nullam vulputate purus felis. Praesent maximus laoreet eros. Duis dignissim justo odio, quis faucibus dolor tristique ac. Donec hendrerit dignissim velit sit amet tincidunt. Quisque et aliquet lorem. Integer felis felis, tempor in massa a, ultricies posuere elit. Nulla suscipit leo in justo egestas imperdiet. Nulla pharetra, dolor non volutpat tempor, ante justo luctus lectus, sit amet tincidunt elit ex ac purus.
+
+Sed tempor ligula at maximus lacinia. Fusce vehicula velit vel sagittis rutrum. Integer quis purus quam. Vestibulum dictum, odio eu scelerisque tristique, dolor neque auctor lorem, quis auctor massa dui vitae nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat sit amet dolor eu ornare. Aliquam neque tellus, suscipit sed erat vitae, rutrum finibus nibh. In hac habitasse platea dictumst. Quisque malesuada dictum eros.
+
+Etiam rhoncus tincidunt consequat. Aliquam imperdiet diam id sem condimentum condimentum. Aenean luctus egestas gravida. Duis sem risus, commodo eget facilisis at, posuere et metus. Aliquam quis tincidunt nunc. Nullam consectetur, massa id congue facilisis, dui neque lacinia orci, non vehicula nisi diam eget mauris. Praesent in laoreet nisl. Integer sodales ex in ligula sagittis, nec tincidunt velit imperdiet. Nam vulputate quis dui scelerisque rhoncus. Fusce eros erat, semper a tristique in, semper et enim. Curabitur id nisi ipsum. Morbi vitae venenatis neque. Maecenas risus odio, imperdiet ac massa vitae, ullamcorper pellentesque nunc. Curabitur auctor nunc eros, ac pulvinar lacus dictum tincidunt. Maecenas gravida non tortor ut laoreet. Curabitur mauris felis, laoreet eu volutpat et, facilisis sed elit.
+
+
+\chapter{Literature Review}\label{cpt:lr}
+
+Aenean ac pulvinar lacus, sit amet sodales lacus. Donec eu nulla lectus \cite{6088955}. Morbi ac lacus iaculis, molestie ex in, pharetra mi. Pellentesque non mattis neque. Donec auctor lacus a ligula sagittis, eu pulvinar libero pellentesque. Cras vitae sodales nulla. Curabitur risus justo, aliquam condimentum congue commodo, pellentesque vel ipsum. Cras rutrum augue quis magna vestibulum, non imperdiet neque tincidunt. Praesent at egestas nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas \cite{3D_avc_draft}.
+
+Sed finibus molestie massa, cursus semper justo consequat in. Sed id porttitor elit. Morbi elementum finibus sollicitudin. Quisque sed molestie neque, vulputate ultrices mi. Mauris et purus libero. Nunc eu tortor vitae turpis ultricies sollicitudin. Duis justo lorem, porttitor id ipsum at, eleifend tincidunt lacus. Nullam ultrices massa vitae dui volutpat euismod. Morbi mollis porttitor nisi, eu porta orci porttitor a. Aliquam tristique, massa vel sollicitudin commodo, ligula dolor pulvinar mi, ut dictum magna risus quis libero \cite{de1962bicubic}. Vestibulum tincidunt nisi sit amet ligula placerat, eu rhoncus nibh posuere. Maecenas feugiat orci a nisl rhoncus maximus. Mauris tincidunt sodales nisl, in fermentum leo. Integer sit amet ultricies nisi. Maecenas tortor urna, vulputate ac eleifend vitae, lobortis quis erat.
+
+Nam mauris ligula, eleifend et ipsum luctus, suscipit commodo ante\cite{6088955}. Ut sed lacinia nunc, eu dictum sapien. Etiam vehicula id lacus at ultricies. Morbi consequat vel justo nec interdum. Donec ultricies venenatis nibh nec pellentesque. Vivamus varius massa sit amet ipsum dignissim faucibus. Donec semper et nulla ornare suscipit. Suspendisse luctus malesuada bibendum. Mauris consectetur nisl quis nulla varius aliquet.
+
+Quisque faucibus, lacus vel iaculis malesuada, nisl orci maximus erat, at sollicitudin purus dui id metus. In rhoncus urna quis risus vehicula, in eleifend enim hendrerit. Etiam fringilla lorem est. Suspendisse tincidunt malesuada interdum. Maecenas semper, sapien nec mollis pulvinar, lacus velit imperdiet ante, id tristique eros neque ut libero. Nullam pharetra odio ipsum, quis blandit magna faucibus id. Quisque sagittis nisi eget leo iaculis laoreet. Interdum et malesuada fames ac ante ipsum primis in faucibus \cite{benzie2007survey}.
+
+Sed sapien turpis, tempor sit amet justo ut, fringilla cursus sapien. Morbi tincidunt at neque nec consequat. Praesent massa tellus, tincidunt non erat eget, posuere tristique lacus. Donec at sem vel ipsum egestas viverra. Sed id diam tincidunt, porttitor elit vel, hendrerit risus. Pellentesque dolor nibh, ullamcorper vel tristique a, faucibus sit amet est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque ac orci eget leo hendrerit ultrices. Ut tincidunt nulla a tempor tempor. Donec sagittis magna neque, non faucibus orci dapibus vitae. Vestibulum eget orci at risus interdum ultrices. Proin efficitur sed turpis quis convallis. Aliquam gravida viverra ligula, eget porttitor ipsum volutpat et. In sollicitudin lectus sit amet risus bibendum pellentesque. Donec quis velit imperdiet, rutrum mauris eu, malesuada mi.
+
+In mattis luctus ipsum, non molestie lectus. Sed at nisi tempus, molestie odio nec, aliquam odio. Praesent neque eros, aliquet vel diam ut, porta faucibus felis. Aliquam scelerisque dui ante, id aliquam velit elementum sit amet. Aliquam sem leo, mollis et sodales quis, viverra in nunc. Sed accumsan rhoncus cursus. Vestibulum maximus odio quis orci feugiat, vitae vehicula mi semper. Suspendisse nec sem dignissim, vestibulum turpis in, semper mi. Morbi ut rhoncus purus. Pellentesque iaculis lorem id lorem iaculis, a condimentum lectus egestas. Etiam tempor ex quis tellus bibendum, eu iaculis tellus fermentum. Duis ultricies lorem vel est mattis faucibus. Vestibulum vel purus congue, maximus ante in, euismod risus.
+
+
+\chapter{Methodology}\label{cpt:method}
+
+\section{Aenean elementum}
+
+Praesent vehicula cursus interdum. Morbi ex elit, dignissim vel scelerisque ut, blandit mollis turpis. Praesent dictum tellus eu gravida eleifend. In ultricies neque vitae enim vulputate eleifend. Aliquam ut tristique metus. Donec ut interdum orci. Aenean elementum pretium risus, et sollicitudin ligula sollicitudin quis. Pellentesque mollis ipsum eget tempor vehicula. Phasellus nec justo nunc. Cras posuere tortor nisl, sed viverra elit faucibus ut. Etiam sed tellus posuere, gravida metus non, bibendum odio. Quisque iaculis rhoncus volutpat:
+\listwithnum{
+	\item Ut vitae est sed arcu euismod pulvinar nec ut ex.
+	\item Aliquam sit amet quam eget felis scelerisque pellentesque vel et augue.
+	\item Vivamus hendrerit diam eu orci consectetur, at eleifend nulla sodales.
+	\item Proin eget eros sit amet turpis malesuada mattis vitae et dolor.
+	\item Praesent in sem elementum odio iaculis sagittis in in quam.
+}
+
+Ut ultricies vestibulum ex eu tempus. Cras id ligula ligula. Integer vel congue nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam ac felis blandit, porta quam ut, scelerisque nisi. Suspendisse a enim sed leo vestibulum tincidunt in vestibulum nulla. Proin suscipit ultricies magna sed fermentum. Vestibulum ullamcorper auctor lobortis. Nunc nunc nisi, facilisis a ullamcorper a, venenatis non metus. Pellentesque vel tempus massa. Morbi sed nisi lacus. Nulla lacinia urna quis placerat consequat. Quisque risus justo, rhoncus vitae nulla sed, laoreet lobortis velit.
+
+\section{Etiam vel quam in justo}
+
+Ut ac tortor eget magna gravida mollis sit amet ac felis. Sed id massa sit amet dui faucibus egestas vitae ac turpis. Suspendisse neque ligula, consequat eget nisi eu, ultricies hendrerit metus. Etiam felis augue, euismod eget aliquet non, gravida id justo. Etiam vel quam in justo finibus aliquet. Etiam blandit viverra felis, sed convallis urna viverra a. Nulla non volutpat ex. Curabitur ac mauris varius, dictum sapien sit amet, placerat sem:
+\begin{equation}
+E=mc^2
+\end{equation}
+
+Etiam non semper elit. Vestibulum lectus enim, efficitur at malesuada non, aliquet nec ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas erat dolor, euismod euismod ligula at, finibus tristique sem. Aliquam ornare facilisis diam. Sed pharetra nisi nec felis finibus, a maximus lectus elementum. Proin imperdiet condimentum mi, a imperdiet ligula rutrum eget. Sed ut semper justo.
+
+Maecenas efficitur non neque at hendrerit. Nulla vestibulum posuere interdum. Morbi eleifend tellus at eros vulputate vulputate. Etiam eget suscipit risus. In ornare ullamcorper odio vitae scelerisque. Fusce neque dolor, facilisis vitae odio sit amet, accumsan volutpat eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas sed mauris metus. In imperdiet mauris eros, vel imperdiet erat lobortis non.
+
+Sed pretium bibendum auctor. Nam placerat semper luctus. Cras eget pretium erat. Curabitur nec venenatis felis. Etiam accumsan volutpat purus, vel scelerisque risus pulvinar et. Pellentesque eget nibh imperdiet, venenatis turpis quis, posuere dolor. Etiam quis enim in nisi cursus vulputate vitae imperdiet est. Ut vulputate orci nisi, nec pulvinar nibh porta vitae. Mauris dolor libero, gravida a aliquet in, efficitur ac eros. Maecenas vel molestie est. In convallis finibus velit, ac eleifend felis varius nec. Proin velit ex, fermentum at ligula at, scelerisque tempus eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis nibh felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+\listwithdot{
+	\item Ut vel felis pellentesque, lobortis quam quis, viverra nibh.
+	\item Integer commodo odio sed augue faucibus, non sodales quam sagittis.
+	\item In eleifend metus eu dui iaculis mollis ut sed magna.
+}
+
+Mauris ac nisi in orci tempus consectetur lobortis nec neque. Aliquam aliquet libero lacus, sed dictum elit gravida nec. Curabitur posuere odio vel consectetur scelerisque. Proin eu augue sem. Donec faucibus mollis nisi sed placerat. Vestibulum pharetra mauris nulla, id viverra arcu scelerisque nec. Ut imperdiet metus nec ultricies consectetur. Cras ac mauris consequat, varius est at, ultrices nibh. Mauris quis condimentum nibh. Pellentesque sit amet arcu sodales, convallis diam vel, pellentesque lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean sodales felis ac neque iaculis, non scelerisque magna congue. Praesent dignissim ultrices odio non laoreet. Aliquam et dolor tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec erat ipsum, maximus finibus auctor vel, semper in velit.
+\begin{eqnarray}
+\nabla\cdot\vec{E} &=& \frac{\rho}{\epsilon_0} \\
+\nabla\cdot\vec{B} &=& 0 \\
+\nabla\times\vec{E} &=& -\frac{\partial B}{\partial t} \\
+\nabla\times\vec{B} &=& \mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t} \right)
+\end{eqnarray}
+
+
+\subsection{Nullam porttitor}
+
+Nullam porttitor nunc et euismod congue. Praesent blandit ex et congue fermentum. Nullam diam velit, facilisis vel libero in, molestie vestibulum risus. Phasellus fringilla sagittis elementum. Cras malesuada odio et porta blandit. Praesent fermentum egestas arcu ut lobortis. Praesent et nunc mollis, malesuada enim eu, ullamcorper nisi. Aliquam vel pellentesque nibh, vel volutpat justo. Phasellus vitae efficitur est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus congue sapien purus, in convallis turpis sollicitudin ut. Aliquam sagittis luctus erat, sit amet dignissim tellus tristique ac. Nam auctor egestas erat a finibus. Donec fringilla ac lorem id pulvinar.
+
+\subsection{Nulla facilisi}
+
+Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id malesuada nibh, id pulvinar purus. Proin non dui nec diam convallis egestas quis vel est. Pellentesque sed sem metus. Nulla placerat laoreet lorem eu venenatis. In hac habitasse platea dictumst. Morbi ut metus nulla. Duis sit amet justo dapibus, blandit libero et, vehicula diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+\section{Suspendisse}
+
+Suspendisse dictum lectus a nulla scelerisque, pulvinar varius magna sollicitudin. Praesent sed tincidunt ligula. Ut semper vel neque quis vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed et tempus sem. Nulla id mi cursus, pretium lacus eget, malesuada velit. Cras sodales, ex et tempor mollis, diam enim sagittis nibh, at hendrerit ante ex vitae ex. Integer ipsum mi, pellentesque at metus suscipit, rutrum dignissim leo. Etiam elementum ante in ultrices interdum. Etiam faucibus neque eget odio tristique lacinia. Curabitur imperdiet ullamcorper ipsum vel tincidunt. Integer laoreet pellentesque volutpat. Praesent mauris quam, scelerisque et dictum et, mollis eget mi.
+
+
+\chapter{Experiment}\label{cpt:exp}
+
+\section{Result ante}
+
+Donec porttitor tempor dui, ut aliquet dui ultrices sed. Nunc malesuada in Fig.\ref{fig:result1}, tellus quis efficitur dignissim, ante dui viverra diam, sit amet porta velit est vitae quam. Sed odio elit, sagittis a tellus id, rhoncus maximus augue. Donec consectetur nisi sit amet ante venenatis dictum. Nam sit amet cursus augue, quis maximus lacus. Nulla rhoncus egestas erat, vel consectetur nisl ornare ac. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce rutrum imperdiet hendrerit. Aenean eu lobortis metus. Vestibulum fermentum, lacus nec euismod viverra, enim sem auctor turpis, eget tincidunt nisl augue sed elit.
+
+\figpdf{Experimental result 1}{result1}{11cm}
+
+\section{Result blandit}
+
+Aenean ultrices felis ante, in neque dictum ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas porta ex quis erat egestas condimentum. Donec suscipit semper egestas. Vestibulum id massa aliquet, ullamcorper nibh vel, porttitor leo. Cras porta leo et diam tincidunt, ut viverra metus varius Fig.\ref{fig:result2}.
+
+\figpdf{Experimental result 2}{result2}{9cm}
+
+\section{Result curabitur}
+
+In Fig.\ref{fig:result3}, curabitur consequat sodales ligula in condimentum. Praesent imperdiet, nulla eu egestas ultrices, diam elit fringilla purus, sit amet elementum lacus mauris vitae turpis. Nunc lobortis viverra est, vel porttitor orci eleifend ac. Vestibulum lacus ante, finibus a est id, ornare viverra orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam ultricies, ligula a ultrices eleifend, mi lectus interdum leo, sit amet fringilla nisi odio sit amet lectus. Nam cursus eros a mi vestibulum, sit amet lobortis lacus consectetur.
+
+\figpdf{Experimental result 3}{result3}{12cm}
+
+Sed at leo eleifend ante dapibus sollicitudin. Donec eget turpis massa. Fusce efficitur, sem eu sollicitudin rhoncus, eros nulla aliquet arcu, ut pellentesque lacus metus eu turpis. Duis venenatis eleifend leo, non lobortis tortor dictum sed. Cras eu dui quis dolor scelerisque eleifend sit amet a nibh. Suspendisse porttitor sit amet nunc sit amet hendrerit. Fusce tempus purus metus, rhoncus dictum nisl pretium vitae. Suspendisse sodales nunc velit, ac malesuada diam commodo sed. Sed maximus vel risus quis laoreet. Ut ullamcorper ante non faucibus imperdiet. Cras tristique nec ligula id egestas. Duis ut elit id lorem sodales viverra eu ut leo.
+
+\chapter{Conclusion}\label{cpt:con}
+
+Phasellus non rutrum quam. Curabitur et dolor in augue faucibus iaculis finibus vitae eros. Morbi fringilla ligula libero, in fringilla ipsum ultricies nec. Donec a dapibus turpis. Cras vestibulum tortor purus, vel volutpat eros interdum et. Nullam id sollicitudin ex, placerat aliquam justo. Sed finibus varius mi vehicula pulvinar. Mauris ut lacus dolor. Vivamus condimentum urna eu nunc egestas, id tempor enim vulputate. Mauris hendrerit condimentum sodales. Aenean consectetur magna sed ante tincidunt, vel tincidunt risus scelerisque. Praesent ut maximus tortor. Proin enim purus, egestas elementum mi nec, pulvinar fermentum risus. Ut id tristique justo, sit amet vehicula ante.
+
+Vestibulum eu faucibus purus, nec consequat felis. Mauris massa nisl, sollicitudin eu luctus sed, porttitor a eros. Ut tincidunt sem vitae lacus fringilla aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum tristique mollis. Vivamus elementum pretium ante, vel mollis tellus luctus vitae. Nullam varius tristique turpis, eget mollis dui sagittis quis. Ut nec efficitur nibh.
+
+\bibliographystyle{IEEEtran}
+
+\bibliography{reference}
+
+\addcontentsline{toc}{chapter}{Bibliography}
+
+\end{document}
+
