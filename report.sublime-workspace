@@ -1,0 +1,582 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inc",
+				"include\t\\#include"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"arg",
+				"argv"
+			],
+			[
+				"PI",
+				"PIPE_BUF"
+			],
+			[
+				"cons",
+				"console.log();"
+			],
+			[
+				"console",
+				"console.log();"
+			],
+			[
+				"consl",
+				"console.log();"
+			],
+			[
+				"consol",
+				"console.log();"
+			],
+			[
+				"con",
+				"console.error();"
+			],
+			[
+				"exi",
+				"fs.exists(path, callback);"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "report.tex",
+			"settings":
+			{
+				"buffer_size": 21690,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"PdfLaTeX"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"close all",
+				"File: Close All"
+			],
+			[
+				"instla",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"JSONComma: Run"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Add Repository"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"close",
+				"Project: Close"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 393.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Fei/latex_template_for_xjtlu_eee/report.tex",
+		"/Users/Fei/thesis/xjtlu.sty",
+		"/Users/Fei/thesis/xjtlu_cover.tex",
+		"/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty",
+		"/Users/Fei/thesis/0--abstract.tex",
+		"/Users/Fei/thesis/reference.bib",
+		"/Users/Fei/thesis/4--texture-depth.tex",
+		"/Users/Fei/thesis/3--depth-skip.tex",
+		"/Users/Fei/thesis/2--texture-264.tex",
+		"/Users/Fei/thesis/1--intro.tex",
+		"/Users/Fei/thesis/thesis.tex",
+		"/Users/Fei/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Fei/thesis/5--platform.tex",
+		"/Users/Fei/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/Fei/thesis/thesis.sublime-project",
+		"/Users/Fei/thesis/1--intro.fls",
+		"/F/Could/Private/Academic/PhD/Research/Thesis/thesis.tex",
+		"/F/Could/Private/Academic/PhD/Research/Thesis/thesis.bbl",
+		"/F/Could/Private/Academic/PhD/Research/Thesis/xjtlu.sty",
+		"/F/Could/Private/Academic/PhD/Research/Thesis/thesis.sublime-project",
+		"/Users/Fei/Documents/Thesis/thesis/thesis.tex",
+		"/Users/Fei/Documents/Thesis/thesis/0-abstract.tex",
+		"/Users/Fei/Documents/Thesis/thesis/2-texture-264.tex",
+		"/Users/Fei/Documents/Thesis/thesis/3-depth-skip.tex",
+		"/Users/Fei/Documents/Thesis/thesis/4-texture-depth.tex",
+		"/Users/Fei/Documents/Thesis/thesis/1-intro.tex",
+		"/Users/Fei/Code/nodeapi/nodeapi.js",
+		"/Users/Fei/Documents/Thesis/thesis/thesis.ilg",
+		"/Users/Fei/Documents/Thesis/thesis/thesis.sublime-project",
+		"/F/dokuwiki/iot/wx.php",
+		"/F/Could/Private/Academic/PhD/Research/Thesis/abstract.tex",
+		"/F/Could/Private/Academic/PhD/Research/Thesis/abstrate.tex",
+		"/F/Could/Private/Academic/PhD/Research/Thesis/abstrate_back.txt",
+		"/D/Ext_Pro/treeesensors/treeesensor/api/controllers/UserController.js",
+		"/D/Ext_Pro/treeesensors/treeesensor/api/models/User.js",
+		"/D/Ext_Pro/treeesensors/treeesensor/config/http.js",
+		"/D/Ext_Pro/treeesensors/treeesensor/api/responses/created.js",
+		"/C/Users/Fred/Desktop/ipup/ip.00004.cs",
+		"/C/Users/Fred/Desktop/TM17-04-04.json",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 2/Packages/JSON Reindent/JSONReindent.sublime-settings",
+		"/F/paper/mtdc_ver2/mtdc/1-introduction.tex",
+		"/F/Could/Private/Academic/PhD/Research/Thesis/thesis.tex.dump",
+		"/M/Project/ReferenceFrameModify/JM/lencod/src/ref_modify.c",
+		"/M/Project_back621/ReferenceFrameModify/JM/lencod/src/ref_modify.c",
+		"/M/Project_back712/ReferenceFrameModify/JM/lencod/src/ref_modify.c",
+		"/F/Could/Private/Academic/PhD/Research/AnnualReport/AnnualReport/report_w.tex",
+		"/F/Could/Private/Academic/PhD/Research/Thesis/report_w.tex",
+		"/F/Could/Private/Academic/PhD/Research/AnnualReport/spconf.sty",
+		"/C/Program Files/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty",
+		"/F/公司/treee未整理/tea/TEASEN/TEAEN/chapter/chap7.tex",
+		"/F/paper/mtdc_modified/mtdchtml/dtm.tex",
+		"/F/paper/mtdc_modified/mtdc/dtm.tex",
+		"/F/paper/mtdc_modified/mtdc/3-exp.tex",
+		"/F/paper/mtdc_modified/mtdc/2-scheme.tex",
+		"/F/paper/mtdc_modified/mtdc/1-introduction.tex",
+		"/F/index.htm",
+		"/F/paper/mtdc_modified/mtdc/reference.bib",
+		"/D/Ext_Pro/pdfcreat/logo.svg",
+		"/D/Ext_Pro/juvec/module/pdf/single.js",
+		"/E/EEE109Lab1-2016/Grade/EEE109LAB1RESULT.csv",
+		"/F/report_latex/clean-mac.sh",
+		"/F/report_latex/clean-win.bat",
+		"/F/report_latex/reference.bib",
+		"/C/Users/Fred/Desktop/财务测算.xlsx",
+		"/C/Users/Fred/Desktop/新建文件夹 (2)/tpl_header.php",
+		"/C/Users/Fred/Desktop/新建文件夹 (2)/_icomoon.css",
+		"/C/Users/Fred/Desktop/新建文件夹 (2)/_header.css",
+		"/C/Users/Fred/Desktop/新建文件夹 (2)/_wrapper.css",
+		"/C/Users/Fred/Desktop/新建文件夹 (2)/_sidebar.css",
+		"/C/Users/Fred/Desktop/新建文件夹 (2)/_search.css",
+		"/C/Users/Fred/Desktop/新建文件夹 (2)/_media_fullscreen.css",
+		"/C/Users/Fred/Desktop/新建文件夹 (2)/_content.css",
+		"/C/Users/Fred/Desktop/新建文件夹 (2)/_edit.css",
+		"/C/Users/Fred/Desktop/新建文件夹 (2)/_g.css",
+		"/C/Users/Fred/Desktop/新建文件夹 (2)/tpl_header - 副本.php",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeXTools.sublime-settings",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeXTools (Advanced).sublime-settings",
+		"/D/down/EEE116/GroupB/PremiereProCS6_key+ha/PremiereProCS6_key+ha/Adobe Premiere Pro CS6 汉化/汉化与卸载汉化PR.cmd",
+		"/C/Users/Fred/Desktop/tea1s/ledmat.cpp",
+		"/C/Users/Fred/Desktop/tea1s/ledmat.h",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 2/Packages/Stino/preset/platform.settings",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 2/Packages/Stino/preset/menu_arduino.txt",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 2/Packages/Stino/preset/ram_size.settings",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 2/Packages/Stino/stino/pyarduino/pyarduino.settings",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 2/Packages/User/Stino/menu/programmers/Main.sublime-menu",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 2/Packages/User/Stino/Arduino.tmLanguage.cache",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 2/Packages/User/Stino/Main.sublime-menu",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 2/Packages/User/Stino/Stino.sublime-completions",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 2/Packages/User/Stino/Preferences.stino-settings",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 2/Packages/User/Stino/Arduino.tmLanguage",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 2/Packages/User/arduino-cli.sublime-settings",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/pyarduino/arduino_root.py",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/preset/lang_pt.txt.dump",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/Default (Windows).sublime-keymap",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/LICENSE",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/package-metadata.json",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/README.md",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/StinoStarter.py",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/pyarduino/__init__.py",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/pyarduino/arduino_target_programmer.py",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/pyarduino/arduino_target_platform.py",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/pyarduino/arduino_target_board.py",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/pyarduino/arduino_src.py",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/pyarduino/arduino_sketchbook.py",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/pyarduino/arduino_item.py",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/pyarduino/arduino_info.py",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/pyarduino/arduino_params_file.py",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/pyarduino/arduino_target_params.py",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/pyarduino/arduino_uploader.py",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/preset/lang_es.txt.dump",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/preset/lang_de.txt.dump",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/preset/platform_wiring.txt",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/preset/lang_zh_cn.txt",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/Comments.tmPreferences",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/CONTRIBUTORS.md",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/pyarduino/arduino_package.py",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/pyarduino/base/settings.py",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/pyarduino/pyarduino.settings",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/pyarduino/arduino_bootloader.py",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/__init__.py",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/st_console.py",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/snippets/if.sublime-snippet",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/config/syntax",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/Main.sublime-menu",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/stino.settings",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/stino.global_settings",
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/package-metadata.json"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "report.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21690,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								387,
+								387
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.1472651921.12":
+	{
+		"height": 210.0
+	},
+	"output.1472727241.96":
+	{
+		"height": 228.0
+	},
+	"output.build|C:\\Users\\Fred\\AppData\\Roaming\\Sublime Text 3\\Packages\\Stino\\stino\\pyarduino|1472722207.37":
+	{
+		"height": 0.0
+	},
+	"output.build|C:\\Users\\Fred\\Desktop\\tea1s|1472728107.63":
+	{
+		"height": 228.0
+	},
+	"output.build|C:\\Users\\Fred\\Desktop\\tea1s|1472728300.56":
+	{
+		"height": 228.0
+	},
+	"output.build|C:\\Users\\Fred\\Desktop\\tea1s|1472728501.57":
+	{
+		"height": 228.0
+	},
+	"output.build|C:\\Users\\Fred\\Desktop\\teas1|1472651905.66":
+	{
+		"height": 210.0
+	},
+	"output.build|C:\\Users\\Fred\\Desktop\\teas1|1472651937.2":
+	{
+		"height": 210.0
+	},
+	"output.build|C:\\Users\\Fred\\Desktop\\teas1|1472728090.09":
+	{
+		"height": 228.0
+	},
+	"output.exec":
+	{
+		"height": 344.0
+	},
+	"output.find_results":
+	{
+		"height": 174.0
+	},
+	"output.latextools":
+	{
+		"height": 217.0
+	},
+	"output.markdown":
+	{
+		"height": 198.0
+	},
+	"output.stino_log":
+	{
+		"height": 198.0
+	},
+	"output.tea1s":
+	{
+		"height": 198.0
+	},
+	"output.upload|C:\\Users\\Fred\\AppData\\Roaming\\Sublime Text 3\\Packages\\Stino\\stino\\pyarduino|1472722194.54":
+	{
+		"height": 0.0
+	},
+	"output.upload|C:\\Users\\Fred\\AppData\\Roaming\\Sublime Text 3\\Packages\\Stino\\stino\\pyarduino|1472722199.61":
+	{
+		"height": 0.0
+	},
+	"output.upload|C:\\Users\\Fred\\AppData\\Roaming\\Sublime Text 3\\Packages\\Stino\\stino\\pyarduino|1472722203.36":
+	{
+		"height": 0.0
+	},
+	"output.upload|C:\\Users\\Fred\\Desktop\\tea1s|1472728128.88":
+	{
+		"height": 228.0
+	},
+	"output.upload|C:\\Users\\Fred\\Desktop\\tea1s|1472728224.49":
+	{
+		"height": 228.0
+	},
+	"output.upload|C:\\Users\\Fred\\Desktop\\tea1s|1472728302.89":
+	{
+		"height": 228.0
+	},
+	"output.upload|C:\\Users\\Fred\\Desktop\\tea1s|1472728307.62":
+	{
+		"height": 601.0
+	},
+	"output.upload|C:\\Users\\Fred\\Desktop\\tea1s|1472728503.89":
+	{
+		"height": 545.0
+	},
+	"output.upload|C:\\Users\\Fred\\Desktop\\tea1s|1472728610.87":
+	{
+		"height": 228.0
+	},
+	"output.upload|C:\\Users\\Fred\\Desktop\\tea1s|1472728719.82":
+	{
+		"height": 654.0
+	},
+	"pinned_build_system": "",
+	"project": "report.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"test",
+				"module/pdf2img/test.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/D/Ext_Pro/juvec/juvecard.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,13 +1,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 开始你的 LaTeX 之旅
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \documentclass[11pt,oneside,openright]{book}
 % 上面的设置中，11pt是字号，比较适合电子印刷品和纸质印刷品
 % 字体已经固定为 Times，即最适合纸质印刷和电子印刷的正式字体
 % oneside代表单面，一般单侧用于电子印刷品
 % 可以改成 twoside，一般用于双面纸质印刷，纸质印刷品要求新的一章从奇数页开始
-
 \usepackage{xjtlu} %不要改这个
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -24,9 +22,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
+% set line spacing to 1.5B
 \baselineskip = 17pt
+\pagenumbering{Alph}
+\begin{titlepage}
 \input{xjtlu_cover}
-\baselineskip = 17pt
+\newpage
+\thispagestyle{empty}
+\end{titlepage}
 
 \frontmatter
 
@@ -45,6 +48,7 @@ Nulla sagittis urna venenatis ex lacinia molestie. Etiam tempus enim tortor, sed
 \textbf{Key Words:} \LaTeX{}, consectetur, rutrum.
 
 \mainmatter
+\pagenumbering{arabic}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 正文部分 Main Content

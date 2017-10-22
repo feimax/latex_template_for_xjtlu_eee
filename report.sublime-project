@@ -1,0 +1,10 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"name": "LaTeX Report",
+			"file_exclude_patterns": ["*.fls","*.fdb_latexmk","*.bst","*.aux","*.out","*.ilg","*.ind","*.bbl","*.blg","*.glo","*.idx","*.lot","*.pdf","*.log","*.lof","*.gz","*.dump","*.toc","*.sublime*"]
+		}
+	]
+}
