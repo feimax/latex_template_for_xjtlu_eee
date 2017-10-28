@@ -59,15 +59,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "report.tex",
-			"settings":
-			{
-				"buffer_size": 21690,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -195,9 +186,15 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/Fei/latex_template_for_xjtlu_eee"
+	],
 	"file_history":
 	[
 		"/Users/Fei/latex_template_for_xjtlu_eee/report.tex",
+		"/Users/Fei/latex_template_for_xjtlu_eee/xjtlu.sty",
+		"/Users/Fei/latex_template_for_xjtlu_eee/report.sublime-project",
 		"/Users/Fei/thesis/xjtlu.sty",
 		"/Users/Fei/thesis/xjtlu_cover.tex",
 		"/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty",
@@ -322,9 +319,7 @@
 		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/snippets/if.sublime-snippet",
 		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/config/syntax",
 		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/Main.sublime-menu",
-		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/stino.settings",
-		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/stino.global_settings",
-		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/package-metadata.json"
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/stino.settings"
 	],
 	"find":
 	{
@@ -359,37 +354,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "report.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 21690,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								387,
-								387
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
