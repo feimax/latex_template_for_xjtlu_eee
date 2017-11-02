@@ -194,6 +194,7 @@
 	[
 		"/Users/Fei/latex_template_for_xjtlu_eee/report.tex",
 		"/Users/Fei/latex_template_for_xjtlu_eee/xjtlu.sty",
+		"/Users/Fei/latex_template_for_xjtlu_eee/xjtlu_cover.tex",
 		"/Users/Fei/latex_template_for_xjtlu_eee/report.sublime-project",
 		"/Users/Fei/thesis/xjtlu.sty",
 		"/Users/Fei/thesis/xjtlu_cover.tex",
@@ -318,8 +319,7 @@
 		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/st_console.py",
 		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/snippets/if.sublime-snippet",
 		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/config/syntax",
-		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/Main.sublime-menu",
-		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/stino.settings"
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/Main.sublime-menu"
 	],
 	"find":
 	{
@@ -337,6 +337,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"figany",
+			"fig"
 		],
 		"highlight": true,
 		"in_selection": false,
