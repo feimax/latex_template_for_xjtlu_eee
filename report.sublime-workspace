@@ -59,6 +59,33 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "xjtlu.sty",
+			"settings":
+			{
+				"buffer_size": 2169,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "report.tex",
+			"settings":
+			{
+				"buffer_size": 22897,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Fei/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/811f7da196513f478c1223c4edcd87cb/Message/MessageTemp/d0abfeb29a84b060969c354b5ec9941a/File/Report_template.tex",
+			"settings":
+			{
+				"buffer_size": 1715,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -192,9 +219,9 @@
 	],
 	"file_history":
 	[
+		"/Users/Fei/latex_template_for_xjtlu_eee/xjtlu_cover.tex",
 		"/Users/Fei/latex_template_for_xjtlu_eee/report.tex",
 		"/Users/Fei/latex_template_for_xjtlu_eee/xjtlu.sty",
-		"/Users/Fei/latex_template_for_xjtlu_eee/xjtlu_cover.tex",
 		"/Users/Fei/latex_template_for_xjtlu_eee/report.sublime-project",
 		"/Users/Fei/thesis/xjtlu.sty",
 		"/Users/Fei/thesis/xjtlu_cover.tex",
@@ -323,7 +350,7 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
@@ -337,6 +364,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<code>",
+			"</code>",
+			"<code>",
+			"拯救",
+			"</code>",
+			"<code>",
 			"figany",
 			"fig"
 		],
@@ -346,6 +379,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<pre lang=\"latex\">",
+			"</pre>",
+			"<pre lang=\"latex\">",
+			"救救",
+			"</pre>",
+			"<pre lang=\"latex\">"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -356,14 +395,99 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "xjtlu.sty",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1340,
+								1345
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/TeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 844.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "report.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22897,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								730,
+								730
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/Fei/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/811f7da196513f478c1223c4edcd87cb/Message/MessageTemp/d0abfeb29a84b060969c354b5ec9941a/File/Report_template.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1715,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								920,
+								920
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 276.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -496,7 +620,7 @@
 	"project": "report.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 80.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -520,7 +644,7 @@
 		[
 			[
 				"",
-				"/D/Ext_Pro/juvec/juvecard.sublime-project"
+				"~/thesis/thesis.sublime-project"
 			]
 		],
 		"width": 380.0
