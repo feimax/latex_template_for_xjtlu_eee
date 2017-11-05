@@ -17,7 +17,7 @@
 \usepackage{algorithm}
 \usepackage{amsmath}  
 \usepackage{multirow}
-\usepackage[pdfpagelabels]{hyperref}
+%\usepackage[pdfpagelabels]{hyperref}
 \usepackage{geometry} % to change the page dimensions
 \geometry{a4paper} % or letter paper (US) or a5paper or....
 \textheight=235mm
@@ -98,10 +98,21 @@ Fig. \ref{fig:#1}
 
 
 %Code box setup
-\lstset{numbers=left,
-numberstyle= \tiny,
-keywordstyle= \color{ blue!70},commentstyle=\color{red!50!green!50!blue!50},
-frame=single,
-rulesepcolor= \color{ red!20!green!20!blue!20},
-basicstyle=\tiny,
+\lstset{
+    columns=fixed,       
+    numbers=left, 
+    frame=single,
+    backgroundcolor=\color[RGB]{245,245,244},
+    keywordstyle=\color[RGB]{40,40,255},
+    numberstyle=\footnotesize\color{darkgray},
+    commentstyle=\it\color[RGB]{20,100,100},                % 设置代码注释的格式
+    stringstyle=\ttfamily\color[RGB]{0,120,0},   % 设置字符串格式
+    showstringspaces=false,                              % 不显示字符串中的空格
+    basicstyle=\ttfamily，
 }
+
+\newcommand{\ccode}[1]{
+	\lstinputlisting[language=c++]{code/#1}
+
+}
+
