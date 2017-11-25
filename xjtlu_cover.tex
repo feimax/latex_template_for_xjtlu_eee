@@ -1,20 +1,23 @@
-﻿\thispagestyle{empty}
+﻿% 不要编译！该文件已经包含在 report.tex 里了
+\thispagestyle{empty}
 \newcommand\nbvspace[1][3]{\vspace*{\stretch{#1}}}
 \newcommand\nbstretchyspace{\spaceskip0.5em plus 0.25em minus 0.25em}
 \newcommand{\nbtitlestretch}{\spaceskip0.6em}
-\newcommand{\psubtitle}[1]{\Large\textbf{{#1}}\\\normalsize}
+\newcommand{\psubtitle}[1]{\LARGE\textbf{{#1}}\\\normalsize}
 \newcommand{\ptitle}[1]{\huge\textbf{{#1}}\\\normalsize}
 
 \begin{center}
 \nbvspace[0.5]
 \begin{figure}[h]
 \centering
-\includegraphics[width=10cm]{fig/xjtlu_logo_bw.pdf}
+\includegraphics[width=10cm]{\logofile}
 \label{fig:logo}
 \end{figure}
 %\psubtitle{Experimental Report}
 \nbvspace[1]
 \ptitle{\rtt}
+\nbvspace[0.5]
+\psubtitle{\srtt}
 \nbvspace[1]
 
 \end{center}
@@ -23,11 +26,7 @@
 \begin{table}[!hbp]
 \centering
 \begin{tabular}{p{2.5cm} p{7cm}}   \\
-  \Large \textbf{Author:}&\Large\stu \\ \\
-  \Large \textbf{Partner:}&\Large\ptn \\ \\
-  \Large \textbf{Module:}&\Large \modu \\ \\
-  \Large \textbf{Teacher:}&\Large \lect \\ \\
-  \Large \textbf{Date:}& \Large \dat \\
+  \cct
  \end{tabular}
 \end{table}
 \normalsize

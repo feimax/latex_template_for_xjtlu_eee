@@ -1,89 +1,22 @@
+\NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{xjtlu}
-\pagestyle{plain}
-\usepackage{graphicx}
-\usepackage{makeidx}
-\usepackage{nomencl}
-\usepackage{listings}
-\usepackage{pstricks}
-\usepackage{xcolor}
-\usepackage{fancyhdr}
-\usepackage{times}
-\usepackage{epstopdf}
-\usepackage{psfig}
-\usepackage{url}
-\usepackage{epsfig,graphics,subfigure,psfrag,amssymb}
-\usepackage{float}
-\usepackage{algpseudocode}  
-\usepackage{algorithm}
-\usepackage{amsmath}  
-\usepackage{multirow}
+
+
 %\usepackage[pdfpagelabels]{hyperref}
-\usepackage{geometry} % to change the page dimensions
-\geometry{a4paper} % or letter paper (US) or a5paper or....
-\textheight=235mm
-\textwidth=140mm
-\topmargin=0mm
-\headheight=0mm
-\headsep=0mm
-% These must be changed for double sided output !
-\oddsidemargin=12mm
-\evensidemargin=12mm
+
 
 %\usepackage[cmintegrals]{newtxmath}
 
 
-\renewcommand{\figurename}{Fig.}
 
-\makeindex
-\makeglossary
+
+%\makeindex
+%\makeglossary
 
 %Rename the chapter to "Section"
 %\renewcommand{\chaptername}{\textbf{Section}}
-\renewcommand{\bibname}{Reference}
 
-\newcommand{\reporttitle}[1]{\newcommand{\rtt}{#1}}
-\newcommand{\student}[1]{\newcommand{\stu}{#1}}
-\newcommand{\partner}[1]{\newcommand{\ptn}{#1}}
-\newcommand{\module}[1]{\newcommand{\modu}{#1}}
-\newcommand{\teacher}[1]{\newcommand{\lect}{#1}}
-\newcommand{\ddl}[1]{\newcommand{\dat}{#1}}
 
-\renewcommand{\arraystretch}{1.8}
-
-\newcommand{\figpdf}[3]{
-\begin{figure}[htp]
-\centering
-\includegraphics[width={#3}]{fig/#2.pdf}
-\caption{{#1}}
-\label{fig:#2}
-\end{figure}
-}
-
-\newcommand{\figpng}[3]{
-\begin{figure*}[htp]
-\centering
-\includegraphics[width={#3}]{fig/#2.png}
-\caption{{#1}}
-\label{fig:#2}
-\end{figure}
-}
-
-\newcommand{\figany}[4]{
-\begin{figure}[htp]
-\centering
-\includegraphics[width={#4}]{fig/#2.#3}
-\caption{{#1}}
-\label{fig:#2}
-\end{figure}
-}
-
-\newcommand{\Fig}[1]{
-Fig. \ref{fig:#1}
-}
-
-\newcommand{\fig}[1]{
-Fig. \ref{fig:#1}
-}
 
 \newcommand{\listwithnum}[1]{
 \begin{enumerate}
@@ -96,23 +29,4 @@ Fig. \ref{fig:#1}
 \end{itemize}
 }
 
-
-%Code box setup
-\lstset{
-    columns=fixed,       
-    numbers=left, 
-    frame=single,
-    backgroundcolor=\color[RGB]{245,245,244},
-    keywordstyle=\color[RGB]{40,40,255},
-    numberstyle=\footnotesize\color{darkgray},
-    commentstyle=\it\color[RGB]{20,100,100},                % 设置代码注释的格式
-    stringstyle=\ttfamily\color[RGB]{0,120,0},   % 设置字符串格式
-    showstringspaces=false,                              % 不显示字符串中的空格
-    basicstyle=\ttfamily，
-}
-
-\newcommand{\ccode}[1]{
-	\lstinputlisting[language=c++]{code/#1}
-
-}
 

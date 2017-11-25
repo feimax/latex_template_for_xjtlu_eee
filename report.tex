@@ -1,26 +1,52 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 开始你的 LaTeX 之旅
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[11pt,oneside,openright]{book}
-% 上面的设置中，11pt是字号，比较适合电子印刷品和纸质印刷品
-% 字体已经固定为 Times，即最适合纸质印刷和电子印刷的正式字体
-% oneside代表单面，一般单侧用于电子印刷品
-% 可以改成 twoside，一般用于双面纸质印刷，纸质印刷品要求新的一章从奇数页开始
-\usepackage{xjtlu} %不要改这个
+% 前所未有简单地，开始你的 LaTeX 之旅
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 修改下面各项，包括标题，你的名字，课程名字，老师名字
-% 以及截止日期
-% Change the following items, includeing name,
-% module name, teacher's name and deadline
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\reporttitle{How To Rescue Your Report Using \LaTeX{}}
-\student{Your NAME}
-\partner{Your Partner}
-\module{EEE001 - Report Writing}
-\teacher{Dr. Firstname SURNAME}
-\ddl{$30^{th}$~/~Sept~/~2017}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% [页面选项]
+%
+% 字号选项:    11pt是字号，比较适合电子印刷品和纸质印刷品
+% 字体选项:    不填写 - 默认为 Modern (别忘了连逗号一起删了)
+%			  times - Times New Roman
+%			  sans - Sans Serif 字体（黑体）
+% oneside:    代表单面，一般单侧用于电子印刷品
+% 		      可以改成 twoside，一般用于双面纸质印刷
+% openright:  双面打印的情况下，纸质印刷品要求新的一章从奇数页开始
+% hardcopy:   打印机打印选项，带有此选项将去除logo颜色以及代码颜色，更适合黑白印刷
+%			  使用彩色或者电子版请去除此选项
+%			  也可以改为 editing，颜色讲和 sublime3 的 Mariana 颜色主题一致，减小写作时的文本对比度
+%		          让你以最舒适的方式书写
+% heading:    页面带有页眉
+\documentclass[11pt,times,oneside,openright,hardcopy]{eeereport}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% [封面选项]
+%
+% title:    文章主标题，不可以省略
+% subtitle: 副标题，可以省略，但不可以删除
+% covercontent: 封面信息，可以在其内部添加或者删除 \converline 来添加或者删除一行
+%    coverline{项目}{项目内容}，可以自由添加各种内容
+%
+\title{How To Rescue Your Report Using \LaTeX{}}
+\subtitle{}
+\covercontent{
+	\coverline{Author}{Your NAME}
+	\coverline{Partner}{Your Partner}
+	\coverline{Module}{EEE001 - Report Writing}
+	\coverline{Teacher}{Dr. Firstname SURNAME}
+	\coverline{Date}{$30^{th}$~/~Sept~/~2017}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 页面设定
+% 如果在前面设定了需要页面，请去掉下面三个的注释，然后分别进行定义，如果不定义，
+% LaTeX 会自动使用章节名称来进行页面定义
+%\lhead{} 
+%\chead{} 
+%\rhead{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \begin{document}
 % set line spacing to 1.5B
@@ -36,7 +62,7 @@
 
 \tableofcontents
 \addcontentsline{toc}{chapter}{Contents}
-
+	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 摘要部分 Abstract
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -79,7 +105,15 @@ Nam mauris ligula, eleifend et ipsum luctus, suscipit commodo ante\cite{6088955}
 
 Quisque faucibus, lacus vel iaculis malesuada, nisl orci maximus erat, at sollicitudin purus dui id metus. In rhoncus urna quis risus vehicula, in eleifend enim hendrerit. Etiam fringilla lorem est. Suspendisse tincidunt malesuada interdum. Maecenas semper, sapien nec mollis pulvinar, lacus velit imperdiet ante, id tristique eros neque ut libero. Nullam pharetra odio ipsum, quis blandit magna faucibus id. Quisque sagittis nisi eget leo iaculis laoreet. Interdum et malesuada fames ac ante ipsum primis in faucibus \cite{benzie2007survey}.
 
-Sed sapien turpis, tempor sit amet justo ut, fringilla cursus sapien. Morbi tincidunt at neque nec consequat. Praesent massa tellus, tincidunt non erat eget, posuere tristique lacus. Donec at sem vel ipsum egestas viverra. Sed id diam tincidunt, porttitor elit vel, hendrerit risus. Pellentesque dolor nibh, ullamcorper vel tristique a, faucibus sit amet est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque ac orci eget leo hendrerit ultrices. Ut tincidunt nulla a tempor tempor. Donec sagittis magna neque, non faucibus orci dapibus vitae. Vestibulum eget orci at risus interdum ultrices. Proin efficitur sed turpis quis convallis. Aliquam gravida viverra ligula, eget porttitor ipsum volutpat et. In sollicitudin lectus sit amet risus bibendum pellentesque. Donec quis velit imperdiet, rutrum mauris eu, malesuada mi.
+Sed sapien turpis, tempor sit amet justo ut, fringilla cursus sapien. Morbi tincidunt at neque nec consequat. Praesent massa tellus, tincidunt non erat eget, posuere tristique lacus. Donec at sem vel ipsum egestas viverra. Sed id diam tincidunt, porttitor elit vel, hendrerit risus. Pellentesque dolor nibh, ullamcorper vel tristique a, faucibus sit amet est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque ac orci eget leo hendrerit ultrices. Ut tincidunt nulla a tempor tempor. Donec sagittis magna neque, non faucibus orci dapibus vitae. Vestibulum eget orci at risus interdum ultrices. Proin efficitur sed turpis quis convallis. Aliquam gravida viverra ligula, eget porttitor ipsum volutpat et. In sollicitudin lectus sit amet risus bibendum pellentesque. Donec quis velit imperdiet, rutrum mauris eu, malesuada mi\cite{bibname}.
+
+
+\[ f(n) =
+  \begin{cases}
+    n/2       & \quad \text{if } n \text{ is even}\\
+    -(n+1)/2  & \quad \text{if } n \text{ is odd}
+  \end{cases}
+\]
 
 In mattis luctus ipsum, non molestie lectus. Sed at nisi tempus, molestie odio nec, aliquam odio. Praesent neque eros, aliquet vel diam ut, porta faucibus felis. Aliquam scelerisque dui ante, id aliquam velit elementum sit amet. Aliquam sem leo, mollis et sodales quis, viverra in nunc. Sed accumsan rhoncus cursus. Vestibulum maximus odio quis orci feugiat, vitae vehicula mi semper. Suspendisse nec sem dignissim, vestibulum turpis in, semper mi. Morbi ut rhoncus purus. Pellentesque iaculis lorem id lorem iaculis, a condimentum lectus egestas. Etiam tempor ex quis tellus bibendum, eu iaculis tellus fermentum. Duis ultricies lorem vel est mattis faucibus. Vestibulum vel purus congue, maximus ante in, euismod risus.
 
@@ -89,7 +123,7 @@ In mattis luctus ipsum, non molestie lectus. Sed at nisi tempus, molestie odio n
 \section{Aenean elementum}
 
 Praesent vehicula cursus interdum. Morbi ex elit, dignissim vel scelerisque ut, blandit mollis turpis. Praesent dictum tellus eu gravida eleifend. In ultricies neque vitae enim vulputate eleifend. Aliquam ut tristique metus. Donec ut interdum orci. Aenean elementum pretium risus, et sollicitudin ligula sollicitudin quis. Pellentesque mollis ipsum eget tempor vehicula. Phasellus nec justo nunc. Cras posuere tortor nisl, sed viverra elit faucibus ut. Etiam sed tellus posuere, gravida metus non, bibendum odio. Quisque iaculis rhoncus volutpat:
-\listwithnum{
+\lists{number}{
 	\item Ut vitae est sed arcu euismod pulvinar nec ut ex.
 	\item Aliquam sit amet quam eget felis scelerisque pellentesque vel et augue.
 	\item Vivamus hendrerit diam eu orci consectetur, at eleifend nulla sodales.
@@ -106,12 +140,19 @@ Ut ac tortor eget magna gravida mollis sit amet ac felis. Sed id massa sit amet 
 R_T=V_T/I(\Omega)
 \end{equation}
 
-\begin{table}
+\begin{table}[h]
+\label{tab:tab1}
 \centering
-\caption{Title Of Table}
-\begin{tabular}{|p{3cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
+\caption{ Title Of Table }
+\renewcommand{\arraystretch}{2}
+\setlength{\tabcolsep}{10pt}
+\begin{tabular}{ |>{\itshape}c|p{2cm}| >{\bfseries}m{3cm}<{\centering}| }
+\hline % 绘制横向表格线，在LaTeX中需要自己定义每一行的表格线
+cell 11 & cell 12 & cell 13   \\
 \hline
-Resistor & $R_{180\Omega}$ & $R_{100\Omega}$ & $R_{120\Omega}$ & $R_T^m$\\
+cell 21 & cell 22 & cell 23 \\
+\cline{1-2}
+cell 31 & cell 32 \newline 456& cell 33  \\
 \hline
 \end{tabular}
 \end{table}
@@ -121,7 +162,7 @@ Etiam non semper elit. Vestibulum lectus enim, efficitur at malesuada non, aliqu
 Maecenas efficitur non neque at hendrerit. Nulla vestibulum posuere interdum. Morbi eleifend tellus at eros vulputate vulputate. Etiam eget suscipit risus. In ornare ullamcorper odio vitae scelerisque. Fusce neque dolor, facilisis vitae odio sit amet, accumsan volutpat eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas sed mauris metus. In imperdiet mauris eros, vel imperdiet erat lobortis non.
 
 Sed pretium bibendum auctor. Nam placerat semper luctus. Cras eget pretium erat. Curabitur nec venenatis felis. Etiam accumsan volutpat purus, vel scelerisque risus pulvinar et. Pellentesque eget nibh imperdiet, venenatis turpis quis, posuere dolor. Etiam quis enim in nisi cursus vulputate vitae imperdiet est. Ut vulputate orci nisi, nec pulvinar nibh porta vitae. Mauris dolor libero, gravida a aliquet in, efficitur ac eros. Maecenas vel molestie est. In convallis finibus velit, ac eleifend felis varius nec. Proin velit ex, fermentum at ligula at, scelerisque tempus eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis nibh felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-\listwithdot{
+\lists{dot}{
 	\item Ut vel felis pellentesque, lobortis quam quis, viverra nibh.
 	\item Integer commodo odio sed augue faucibus, non sodales quam sagittis.
 	\item In eleifend metus eu dui iaculis mollis ut sed magna.
@@ -193,6 +234,12 @@ In Fig.\ref{fig:result2}, curabitur consequat sodales ligula in condimentum. Pra
   \label{fig:subfig} %% label for entire figure 
 \end{figure}
 
+\begin{table}[h]
+\label{tab:tab2}
+\centering
+\caption{ Title Of Table }
+\includegraphics[width=10cm]{fig/table.pdf}
+\end{table}
 
 Sed at leo eleifend ante dapibus sollicitudin. Donec eget turpis massa. Fusce efficitur, sem eu sollicitudin rhoncus, eros nulla aliquet arcu, ut pellentesque lacus metus eu turpis. Duis venenatis eleifend leo, non lobortis tortor dictum sed. Cras eu dui quis dolor scelerisque eleifend sit amet a nibh. Suspendisse porttitor sit amet nunc sit amet hendrerit. Fusce tempus purus metus, rhoncus dictum nisl pretium vitae. Suspendisse sodales nunc velit, ac malesuada diam commodo sed. Sed maximus vel risus quis laoreet. Ut ullamcorper ante non faucibus imperdiet. Cras tristique nec ligula id egestas. Duis ut elit id lorem sodales viverra eu ut leo in Equ.\ref{equ:equation1}.
 
@@ -200,8 +247,8 @@ Sed at leo eleifend ante dapibus sollicitudin. Donec eget turpis massa. Fusce ef
 R^m_T=R_{180\Omega}+R_{100\Omega}+R_{120\Omega}
 \end{equation}
 
-
-\ccode{c_test.c}
+%见到的令你感动的代码插入功能，将c代码加入到
+\code{c++}{c_test.c}
 
 \chapter{Conclusion}\label{cpt:con}
 
@@ -209,10 +256,9 @@ Phasellus non rutrum quam. Curabitur et dolor in augue faucibus iaculis finibus 
 
 Vestibulum eu faucibus purus, nec consequat felis. Mauris massa nisl, sollicitudin eu luctus sed, porttitor a eros. Ut tincidunt sem vitae lacus fringilla aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum tristique mollis. Vivamus elementum pretium ante, vel mollis tellus luctus vitae. Nullam varius tristique turpis, eget mollis dui sagittis quis. Ut nec efficitur nibh.
 
+% 参考文献列表，请打开 reference.bib 文件添加 bibtex 格式的参考文献
 \bibliographystyle{IEEEtran}
-
-\bibliography{reference}
-
+\bibliography{reference} %
 \addcontentsline{toc}{chapter}{Bibliography}
 
 \end{document}
