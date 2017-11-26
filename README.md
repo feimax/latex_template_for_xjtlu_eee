@@ -1,6 +1,8 @@
 # A LaTeX Template For XJTLU EEE Students
 
-这是一个为西交利物浦大学电气系的学生们静心制作的LaTeX模板，可以用来写FYP Report， Master Final Project Report，PhD Thesis等。也可以用来写平时稍微长一些和正式一些的Report。
+刚刚更新到全新的一个版本，添加了很多新功能，还没来及写文档。
+
+这是一个为西交利物浦大学电气系的学生们精心制作的LaTeX模板，可以用来写FYP Report， Master Final Project Report，PhD Thesis等。也可以用来写平时稍微长一些和正式一些的Report。
 
 模板实用PDFLaTeX作为编译器，带有一些我自己改写的简化版指令，很容易上手，也是我自己日常使用的模板。
 

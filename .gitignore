@@ -8,6 +8,7 @@
 *.bak
 *.lot
 *.gz
+*.out
 *.toc
 *.fls
 *.ilg

@@ -59,24 +59,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "report.tex",
-			"settings":
-			{
-				"buffer_size": 24196,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "eeereport.cls",
-			"settings":
-			{
-				"buffer_size": 4435,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"build_system_choices":
@@ -130,13 +112,53 @@
 			]
 		]
 	],
-	"build_varint": "Basic Builder - PdfLaTeX",
+	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "in",
+		"height": 119.0,
+		"last_filter": "git push",
 		"selected_items":
 		[
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Add Repository"
+			],
+			[
+				"pa",
+				"Package Control: Add Repository"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"lin",
+				"Sort Lines"
+			],
+			[
+				"git",
+				"Emmet: Go to Matching Pair"
+			],
 			[
 				"in",
 				"Package Control: Install Package"
@@ -146,15 +168,7 @@
 				"LaTeXTools: Check system"
 			],
 			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
 				"ins",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -175,14 +189,6 @@
 			],
 			[
 				"remove",
-				"Package Control: Remove Package"
-			],
-			[
-				"pack",
-				"Package Control: Add Repository"
-			],
-			[
-				"package",
 				"Package Control: Remove Package"
 			],
 			[
@@ -216,13 +222,14 @@
 	],
 	"file_history":
 	[
+		"/Users/Fei/latex/latex_template_for_xjtlu_eee/eeereport.cls",
+		"/Users/Fei/latex/latex_template_for_xjtlu_eee/report.tex",
 		"/Users/Fei/latex/latex_template_for_xjtlu_eee/xjtlu_cover.tex",
 		"/Users/Fei/latex/latex_template_for_xjtlu_eee/code/c_test.c",
 		"/Users/Fei/FeiCheng_CV/friggeri-cv.cls",
 		"/Users/Fei/latex/latex_template_for_xjtlu_eee/xjtlu.sty",
 		"/Users/Fei/Downloads/geometry/geometry.dtx",
 		"/Users/Fei/latex/latex_template_for_xjtlu_eee/reference.bib",
-		"/Users/Fei/latex/latex_template_for_xjtlu_eee/report.tex",
 		"/Users/Fei/Code/sublime图片/font.htm",
 		"/Users/Fei/FeiCheng_CV/cover_letter.txt",
 		"/Users/Fei/Desktop/equ.htm",
@@ -342,12 +349,11 @@
 		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/pyarduino/arduino_params_file.py",
 		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/pyarduino/arduino_target_params.py",
 		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/stino/pyarduino/arduino_uploader.py",
-		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/preset/lang_es.txt.dump",
-		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/preset/lang_de.txt.dump"
+		"/C/Users/Fred/AppData/Roaming/Sublime Text 3/Packages/Stino/preset/lang_es.txt.dump"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -414,67 +420,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "report.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 24196,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								965,
-								965
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 3994.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "eeereport.cls",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4435,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								405,
-								405
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/TeX.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 72.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -553,6 +500,10 @@
 	{
 		"height": 174.0
 	},
+	"output.git":
+	{
+		"height": 120.0
+	},
 	"output.latextools":
 	{
 		"height": 201.0
@@ -613,7 +564,7 @@
 	"project": "report.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
